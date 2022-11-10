@@ -1,4 +1,5 @@
 /* global Phaser */
+
 // Copyright (c) 2022 Timothy Manwell All rights reserved
 //
 //Created by: Timothy Manwell
@@ -8,12 +9,22 @@
 /**
  * Start Phaser Game
  */
+//*game scene */
 const config = {
   type: Phaser.Auto,
   width: 1920,
   height: 1080,
+  physics: {
+    default: 'arcade',
+    debug: true,
+  },
   // set background colour
   backgroundColor: 0x5f6e7a,
+  scale: {
+    mode:Phaser.Scale.FIT,
+    // place in the middle of the page
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+  },
 };
 
 const game = new Phaser.Game(config);
