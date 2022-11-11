@@ -22,15 +22,15 @@ init (data); {
     this.cameras.main.setBackgroundColor('#ffffff')
 }
 
-preload () {
+preload (); {
     console.log("Splash Scene")
 }
 
-create(data) {
+create(data); {
     //pass
 }
 
-update(time,delta) {
+update(time,delta); {
     //pass
 }
 
