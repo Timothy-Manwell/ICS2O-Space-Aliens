@@ -9,33 +9,28 @@
 /**
  * This class is the title scene
  */
- class TitleScene extends Phaser.Scene {
-    /**
-     * This method is the constructor
-     */
-    constructor() {
-      super({ key: "titleScene" })
-    }
-  
-    init(data)
-    {
-        this.cameras.main.setBackgroundColor("#ffffff")
-    }
-    
-    preload()
-    {
-        console.log("Title Scene")
-    }
-    
-    create(data)
-    {
-        //pass
-    }
-    
-    update(time, delta)
-    {
-        //pass
-    }
+class TitleScene extends Phaser.Scene {
+  /**
+   * This method is the constructor
+   */
+  constructor() {
+    super({ key: "titleScene" });
+  }
+
+  init(data) {
+    this.cameras.main.setBackgroundColor("#ffffff");
+  }
+
+  preload() {
+    console.log("Title Scene");
+  }
+
+  create(data) {
+    //pass
+  }
+
+  update(time, delta) {
+    //pass
+  }
 }
-  export default TitleScene
-  
+export default TitleScene;
