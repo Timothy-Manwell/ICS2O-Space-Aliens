@@ -9,28 +9,32 @@
 /**
  * This class is the splash scene
  */
-class SplashScene extends Phaser.Scene {
+ class SplashScene extends Phaser.Scene {
   /**
    * This method is the constructor
    */
   constructor() {
-    super({ key: "splashScene" });
+    super({ key: "splashScene" })
   }
 
-  init(data) {
-    this.cameras.main.setBackgroundColor("#ffffff");
+  init(data)
+  {
+    this.cameras.main.setBackgroundColor("#ffffff")
   }
 
-  preload() {
-    console.log("Splash Scene");
+  preload()
+  {
+    console.log("Splash Scene")
   }
 
-  create(data) {
+  create(data)
+  {
     //pass
   }
 
-  update(time, delta) {
-    this.scene.switch("titleScene");
+  update(time, delta)
+  {
+    this.scene.switch('titleScene')
   }
 }
-export default SplashScene;
+export default SplashScene
