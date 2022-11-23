@@ -4,7 +4,7 @@
 //
 //Created by: Timothy Manwell
 //Created on: Nov 2022
-//This is the Title Scene
+//This is the Menu Scene
 
 /**
  * This class is the menu scene
