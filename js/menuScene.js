@@ -16,7 +16,6 @@
     constructor() {
       super({ key: "menuScene" })
       }
-    }
   
     init(data) {
       this.cameras.main.setBackgroundColor("#ffffff")
@@ -33,6 +32,6 @@
     update(time, delta) {
       //pass
     }
-  }
+}
   export default MenuScene
   
