@@ -41,6 +41,9 @@
     }
   
     update(time, delta) {
+    }
+
+    clickButton() {
       this.scene.start("gameScene")
     }
 }
