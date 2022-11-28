@@ -37,7 +37,7 @@
 
       this.startButton = this.add.sprite(1920 / 2, 1080 / 2 + 100, "startButton")
       this.startButton.setInteractive({ useHandCursor: true })
-      this.startButton.on("pointerDown", () => this.clickButton())
+      this.startButton.on("pointerdown", () => this.clickButton())
     }
   
     update(time, delta) {
