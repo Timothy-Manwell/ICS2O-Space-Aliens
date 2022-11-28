@@ -31,7 +31,7 @@
     }
   
     create(data) {
-      this.menuSceneBackgroundImage = this.add.sprite(0, 0, "menuScreenBackground")
+      this.menuSceneBackgroundImage = this.add.sprite(0, 0, "menuSceneBackground")
       this.menuSceneBackgroundImage.x = 1920 / 2
       this.menuSceneBackgroundImage.y = 1080 / 2
 
