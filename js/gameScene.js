@@ -14,7 +14,7 @@
      * This method is the constructor
      */
     constructor() {
-      super({ key: "gamescene" })
+      super({ key: "gameScene" })
 
       this.background = null
       this.ship = null
