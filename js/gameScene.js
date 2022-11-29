@@ -28,7 +28,7 @@
       console.log("Game Scene")
 
       this.load.image("starBackground", "./assets/starBackground.png")
-      this.load.image("starBackground", "./assets/spaceShip.png")
+      this.load.image("ship", "./assets/spaceShip.png")
     }
   
     create(data) {
