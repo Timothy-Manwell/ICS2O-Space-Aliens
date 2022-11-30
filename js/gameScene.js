@@ -39,6 +39,9 @@
     }
   
     update(time, delta) {
+      const keyLeftObj = this.input.keyboard.addKey("LEFT")
+      const keyRightObj = this.input.keyboard.addKey("RIGHT")
+      
       if (keyLeftObj.isDown === true) {
         this.ship.x -= 15
         if (this.ship.x < 0) {
