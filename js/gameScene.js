@@ -61,7 +61,7 @@
       }
       if (keySpaceObj.isDown === true) {
         if (this.fireMissile === false) {
-          thise.fireMissile = true
+          this.fireMissile = true
           const aNewMissile = this.physics.add.sprite(this.ship.x, this.ship.y, "missile")
           this.missileGroup.add(aNewMissile)
         }
