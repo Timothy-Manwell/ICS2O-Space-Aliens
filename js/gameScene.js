@@ -66,8 +66,9 @@
           this.missileGroup.add(aNewMissile)
         }
       }
+
       if (keySpaceObj.isUp === true) {
-        this.fireMissle = false
+        this.fireMissile = false
       }
     }
 }
