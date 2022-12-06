@@ -18,7 +18,7 @@
 
       this.background = null
       this.ship = null
-      this.fireMissle = false
+      this.fireMissile = false
       }
   
     init(data) {
