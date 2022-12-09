@@ -13,7 +13,7 @@
     createAlien () {
       const alienXLocation = Math.floor(Math.random() * 1920) + 1
       let alienXVelocity = Math.floor(Math.random() * 50) + 1
-      alienVelocity *= Math.round(Math.random()) ? 1 : -1
+      alienXVelocity *= Math.round(Math.random()) ? 1 : -1
       const anAlien = this.physics.add.sprite(alienXLocation, -100, 'alien')
       anAlien.body.velocity.y = 200
       anAlien.body.velocity.x = alienXVelocity
